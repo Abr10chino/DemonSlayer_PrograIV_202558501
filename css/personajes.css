@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    width: 380px;
+    height: 500px;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgCharacters {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.tittle {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1F1F1F;
+    margin: 10px 0 15px 0;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #1F1F1F;
+    margin: 0;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #0D0D0D;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid #7A0C1C;
+    background-color: #B11226;
+    justify-content: space-between;
+}
+
+.navbarOptions {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2%;
+    margin-top: 10px;
+}
+
+.demonSlayerLogo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.tittle {
+    color: #ffffff;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.navButton {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+}
